@@ -1,0 +1,9 @@
+[package]
+name = "arthur_kornberg_ai"
+version = "1.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+arthur_kornberg_ai = "0x0"
